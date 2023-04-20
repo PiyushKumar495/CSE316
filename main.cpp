@@ -1,17 +1,12 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+Q1. Write a program for multilevel queue scheduling algorithm. There must be three 
+queues generated. There must be specific range of priority associated with every queue. 
+Now prompt the user to enter number of processes along with their priority and burst 
+time. Each process must occupy the respective queue with specific priority range 
+according to its priority. Apply Round Robin algorithm with quantum time 4 on queue 
+with highest priority range. Apply priority scheduling algorithm on the queue with 
+medium range of priority and First come first serve algorithm on the queue with lowest 
+range of priority. Each and every queue should get a quantum time of 10 seconds. CPU 
+will keep on shifting between queues after every 10 seconds.
 
 #include <iostream>
 using namespace std;
